@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*......Header.......*/
+
+header {
+    background-color: #1d1d1d;
+    color: #ffffff;    
+}
+
+
+header ul {
+    display: flex;
+    gap: 20px;
+}
+
+header form input{
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+/*......body.....*/
+
+body{
+    background-color: #3D5A40;
+}
+
+.img-portada img{
+    width:100%;
+    align-items: center;
+
+}
+
+
+
+/*------Novedades--------*/
+
+h2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+
+/*-----Tarjetas-------*/
+
+.contenedor-novedades{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    padding:2rem;
+    color: #D9D9D9;
+}
+
+@media (win-width:768px){
+    .contenedor-novedades{
+        justify-content: space-evenly;
+        ;
+    }
+}
+
+/*--tarjeta-tecnica--*/
+
+.tarjeta-tecnica{
+    border: 2px solid black;
+    border-radius: 41px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 350px;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tarjeta-body{
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.tarjeta-tecnica iframe{
+    width: 85%;
+    height: 55%;
+    border-radius: 41px;
+}
+
+.tarjeta-body a{
+    background-color: black;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/*--tarjeta-ind--*/
+
+.tarjeta-indumentaria{
+    border: 2px solid black;
+    border-radius: 41px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tarjeta-indumentaria img{
+    width: 55%;
+    height: 55%;
+    border-radius: 41px;
+}
+
+/*--tarjeta-promo--*/
+
+.tarjeta-promo{
+    border: 2px solid black;
+    border-radius: 41px;
+    width: 350px;
+    height: 350px;
+}
+
+.tarjeta-promo img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 41px;
+}
+
+/*-----Productos mas vendidos---*/
+
+.texto-galeria{
+    text-align: center;
+    color: #D9D9D9;
+    padding: 2rem;
+}
+
+/*--contenedor--*/
+.productosmasvendidos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2rem;
+    color: #D9D9D9;
+    height: 800px;
+}
+
+/*-----imagenes-------*/
+
+.tarjeta-nano{
+ border: 2px solid black;
+ border-radius: 41px;
+ border-bottom: 20px;
+ width: 350px;
+ height: 350px;
+ display: flex;
+ flex-direction: column;
+}
+
+.tarjeta-nano img{
+    width: 85%;
+    height: 65%;
+    border-radius: 41px;
+}
+
+.tarjeta-meetcon{
+    border: 2px solid black;
+    border-radius: 41px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.tarjeta-meetcon img{
+    width: 85%;
+    height: 65%;
+    border-radius: 41px;
+}
+
+.tarjeta-remera-m{
+    border: 2px solid black;
+    border-radius: 41px;
+    margin-bottom: 15px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta-remera-m img{
+    width: 65%;
+    height: 80%;
+    border-radius: 41px;
+}
+
+
+
+
+footer {
+    color: #D9D9D9;
+    background-color: #1d1d1d;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.ayuda{
+    text-align: center;
+
+}
+
+.contacto{
+    text-align: right;
+    display: block;
+}
+.formulario{
+    text-align: center;
+}
+
+/*------pag quienes somos----*/
+.contenedor-quienes-somos{
+    display: flex;
+}
+
+.text-quienes-somos{
+    text-align: center;
+    padding: 2rem 8rem;
+    color: #D9D9D9;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.tarjeta-quienes-somos img{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
